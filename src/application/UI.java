@@ -60,6 +60,10 @@ public class UI {
 		System.out.println();
 		System.out.println("Turno : " + chessMatch.getTurn());
 		System.out.println("Esperando Player: " + chessMatch.getCurrentPlayer());
+		
+		if (chessMatch.getCheck()) {
+			System.out.println("XEQUE!");
+		}
 	}
 	
 	
